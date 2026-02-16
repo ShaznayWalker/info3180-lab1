@@ -1,10 +1,44 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 1.5;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;  /* better readability */
+  line-height: 1.8;  /* better spacing */
+  color: black;  
+  background-color: #f9f5f0;  /* background */
 }
 
 .container {
-  max-width: 960px;
-  margin: 0 auto;
+  max-width: 800px;
+  margin: 40px auto;  
+}
+
+/* header styling */
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 48px; 
+  color: #ff6b6b;  
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* paragraph styling */
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px; 
+  color: black;  
+  text-align: center; 
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #ff6b6b; 
+}
+
+/* image styling */
+img {
+  display: block;
+  margin: 30px auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;  /* Circular image */
+  border: 4px solid #ff6b6b;
+  transition: transform 0.3s ease;  /* hover */
 }
